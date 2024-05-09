@@ -14,6 +14,11 @@
 		158EC0DC2BEBA73A00B21AFD /* New_ProductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158EC0DB2BEBA73A00B21AFD /* New_ProductTests.swift */; };
 		158EC0E62BEBA73A00B21AFD /* New_ProductUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158EC0E52BEBA73A00B21AFD /* New_ProductUITests.swift */; };
 		158EC0E82BEBA73A00B21AFD /* New_ProductUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158EC0E72BEBA73A00B21AFD /* New_ProductUITestsLaunchTests.swift */; };
+		158EC0F52BEC96DE00B21AFD /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158EC0F42BEC96DE00B21AFD /* Intro.swift */; };
+		158EC0F72BEC96E600B21AFD /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158EC0F62BEC96E600B21AFD /* Index.swift */; };
+		158EC0F92BEC975E00B21AFD /* Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158EC0F82BEC975E00B21AFD /* Mac.swift */; };
+		158EC0FB2BEC976500B21AFD /* iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158EC0FA2BEC976500B21AFD /* iPhone.swift */; };
+		158EC0FD2BEC977000B21AFD /* iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158EC0FC2BEC977000B21AFD /* iPad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		158EC0E12BEBA73A00B21AFD /* New ProductUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New ProductUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		158EC0E52BEBA73A00B21AFD /* New_ProductUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_ProductUITests.swift; sourceTree = "<group>"; };
 		158EC0E72BEBA73A00B21AFD /* New_ProductUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_ProductUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		158EC0F42BEC96DE00B21AFD /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		158EC0F62BEC96E600B21AFD /* Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Index.swift; sourceTree = "<group>"; };
+		158EC0F82BEC975E00B21AFD /* Mac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mac.swift; sourceTree = "<group>"; };
+		158EC0FA2BEC976500B21AFD /* iPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone.swift; sourceTree = "<group>"; };
+		158EC0FC2BEC977000B21AFD /* iPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +108,11 @@
 				158EC0CC2BEBA73900B21AFD /* ContentView.swift */,
 				158EC0CE2BEBA73A00B21AFD /* Assets.xcassets */,
 				158EC0D02BEBA73A00B21AFD /* Preview Content */,
+				158EC0F42BEC96DE00B21AFD /* Intro.swift */,
+				158EC0F62BEC96E600B21AFD /* Index.swift */,
+				158EC0F82BEC975E00B21AFD /* Mac.swift */,
+				158EC0FA2BEC976500B21AFD /* iPhone.swift */,
+				158EC0FC2BEC977000B21AFD /* iPad.swift */,
 			);
 			path = "New Product";
 			sourceTree = "<group>";
@@ -259,6 +274,11 @@
 			files = (
 				158EC0CD2BEBA73900B21AFD /* ContentView.swift in Sources */,
 				158EC0CB2BEBA73900B21AFD /* New_ProductApp.swift in Sources */,
+				158EC0F72BEC96E600B21AFD /* Index.swift in Sources */,
+				158EC0F92BEC975E00B21AFD /* Mac.swift in Sources */,
+				158EC0FB2BEC976500B21AFD /* iPhone.swift in Sources */,
+				158EC0FD2BEC977000B21AFD /* iPad.swift in Sources */,
+				158EC0F52BEC96DE00B21AFD /* Intro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
