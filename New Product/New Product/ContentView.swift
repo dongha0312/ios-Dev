@@ -9,16 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView{
+            Intro()
+            Index()
+            Mac()
+            iPad()
+            iPhone()
+            
         }
-        .padding()
+            .tabViewStyle(.page)
+//            .indexViewStyle(/*@START_MENU_TOKEN@*/PageIndexViewStyle()/*@END_MENU_TOKEN@*/)
+            .ignoresSafeArea()
     }
 }
 
 #Preview {
     ContentView()
+        
 }

@@ -9,7 +9,23 @@ import SwiftUI
 
 struct Index: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 12){
+            HStack {
+                Text("제품별로 알아보기")
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .foregroundStyle(.white)
+                    .padding()
+                Spacer()
+                }
+            CardView(productname: "Mac")
+                
+            CardView(productname: "iPad")
+            CardView(productname: "iPhone")
+            CardView(productname: "Airpods")
+            
+        }
+        .background(.black)
     }
 }
 

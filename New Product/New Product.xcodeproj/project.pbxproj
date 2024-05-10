@@ -19,6 +19,9 @@
 		158EC0F92BEC975E00B21AFD /* Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158EC0F82BEC975E00B21AFD /* Mac.swift */; };
 		158EC0FB2BEC976500B21AFD /* iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158EC0FA2BEC976500B21AFD /* iPhone.swift */; };
 		158EC0FD2BEC977000B21AFD /* iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158EC0FC2BEC977000B21AFD /* iPad.swift */; };
+		158EC1012BECFC2100B21AFD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158EC1002BECFC2100B21AFD /* CardView.swift */; };
+		158EC1032BEDA67200B21AFD /* ProductCardView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158EC1022BEDA67200B21AFD /* ProductCardView1.swift */; };
+		158EC1052BEDB72800B21AFD /* ProductCardView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158EC1042BEDB72800B21AFD /* ProductCardView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		158EC0F82BEC975E00B21AFD /* Mac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mac.swift; sourceTree = "<group>"; };
 		158EC0FA2BEC976500B21AFD /* iPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone.swift; sourceTree = "<group>"; };
 		158EC0FC2BEC977000B21AFD /* iPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPad.swift; sourceTree = "<group>"; };
+		158EC1002BECFC2100B21AFD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		158EC1022BEDA67200B21AFD /* ProductCardView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView1.swift; sourceTree = "<group>"; };
+		158EC1042BEDB72800B21AFD /* ProductCardView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,9 @@
 				158EC0D02BEBA73A00B21AFD /* Preview Content */,
 				158EC0F42BEC96DE00B21AFD /* Intro.swift */,
 				158EC0F62BEC96E600B21AFD /* Index.swift */,
+				158EC1002BECFC2100B21AFD /* CardView.swift */,
+				158EC1042BEDB72800B21AFD /* ProductCardView2.swift */,
+				158EC1022BEDA67200B21AFD /* ProductCardView1.swift */,
 				158EC0F82BEC975E00B21AFD /* Mac.swift */,
 				158EC0FA2BEC976500B21AFD /* iPhone.swift */,
 				158EC0FC2BEC977000B21AFD /* iPad.swift */,
@@ -272,11 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				158EC1012BECFC2100B21AFD /* CardView.swift in Sources */,
 				158EC0CD2BEBA73900B21AFD /* ContentView.swift in Sources */,
 				158EC0CB2BEBA73900B21AFD /* New_ProductApp.swift in Sources */,
 				158EC0F72BEC96E600B21AFD /* Index.swift in Sources */,
+				158EC1052BEDB72800B21AFD /* ProductCardView2.swift in Sources */,
 				158EC0F92BEC975E00B21AFD /* Mac.swift in Sources */,
 				158EC0FB2BEC976500B21AFD /* iPhone.swift in Sources */,
+				158EC1032BEDA67200B21AFD /* ProductCardView1.swift in Sources */,
 				158EC0FD2BEC977000B21AFD /* iPad.swift in Sources */,
 				158EC0F52BEC96DE00B21AFD /* Intro.swift in Sources */,
 			);
@@ -439,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"New Product/Preview Content\"";
@@ -457,6 +470,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "name.dongharyu.New-Product";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,6 +482,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"New Product/Preview Content\"";
@@ -486,6 +501,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "name.dongharyu.New-Product";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
