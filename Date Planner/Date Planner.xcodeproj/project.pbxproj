@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1518A72C2C241694002224B1 /* Date_PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518A72B2C241694002224B1 /* Date_PlannerApp.swift */; };
+		1518A7302C241696002224B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1518A72F2C241696002224B1 /* Assets.xcassets */; };
+		1518A7332C241696002224B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1518A7322C241696002224B1 /* Preview Assets.xcassets */; };
+		1518A73A2C241725002224B1 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518A7392C241725002224B1 /* Event.swift */; };
+		1518A73C2C24175C002224B1 /* EventTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518A73B2C24175C002224B1 /* EventTask.swift */; };
+		1518A73E2C24177E002224B1 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518A73D2C24177E002224B1 /* EventData.swift */; };
+		1518A7402C2417D3002224B1 /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518A73F2C2417D3002224B1 /* EventList.swift */; };
+		1518A7422C241896002224B1 /* ColorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518A7412C241896002224B1 /* ColorOptions.swift */; };
+		1518A7442C2418CB002224B1 /* EventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518A7432C2418CB002224B1 /* EventDetail.swift */; };
+		1518A7462C241932002224B1 /* EventEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518A7452C241932002224B1 /* EventEditor.swift */; };
+		1518A7482C241985002224B1 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518A7472C241985002224B1 /* EventRow.swift */; };
+		1518A74A2C2419A5002224B1 /* EventSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518A7492C2419A5002224B1 /* EventSymbols.swift */; };
+		1518A74C2C2419D2002224B1 /* SFSymbolStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518A74B2C2419D2002224B1 /* SFSymbolStyling.swift */; };
+		1518A74E2C2419E5002224B1 /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518A74D2C2419E5002224B1 /* SymbolPicker.swift */; };
+		1518A7502C2419FD002224B1 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518A74F2C2419FD002224B1 /* TaskRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1518A7282C241694002224B1 /* Date Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Date Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1518A72B2C241694002224B1 /* Date_PlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date_PlannerApp.swift; sourceTree = "<group>"; };
+		1518A72F2C241696002224B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1518A7322C241696002224B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1518A7392C241725002224B1 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		1518A73B2C24175C002224B1 /* EventTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTask.swift; sourceTree = "<group>"; };
+		1518A73D2C24177E002224B1 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		1518A73F2C2417D3002224B1 /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
+		1518A7412C241896002224B1 /* ColorOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOptions.swift; sourceTree = "<group>"; };
+		1518A7432C2418CB002224B1 /* EventDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail.swift; sourceTree = "<group>"; };
+		1518A7452C241932002224B1 /* EventEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditor.swift; sourceTree = "<group>"; };
+		1518A7472C241985002224B1 /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		1518A7492C2419A5002224B1 /* EventSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSymbols.swift; sourceTree = "<group>"; };
+		1518A74B2C2419D2002224B1 /* SFSymbolStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolStyling.swift; sourceTree = "<group>"; };
+		1518A74D2C2419E5002224B1 /* SymbolPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolPicker.swift; sourceTree = "<group>"; };
+		1518A74F2C2419FD002224B1 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1518A7252C241694002224B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1518A71F2C241694002224B1 = {
+			isa = PBXGroup;
+			children = (
+				1518A72A2C241694002224B1 /* Date Planner */,
+				1518A7292C241694002224B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1518A7292C241694002224B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1518A7282C241694002224B1 /* Date Planner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1518A72A2C241694002224B1 /* Date Planner */ = {
+			isa = PBXGroup;
+			children = (
+				1518A72B2C241694002224B1 /* Date_PlannerApp.swift */,
+				1518A7392C241725002224B1 /* Event.swift */,
+				1518A7432C2418CB002224B1 /* EventDetail.swift */,
+				1518A7452C241932002224B1 /* EventEditor.swift */,
+				1518A7472C241985002224B1 /* EventRow.swift */,
+				1518A7492C2419A5002224B1 /* EventSymbols.swift */,
+				1518A74B2C2419D2002224B1 /* SFSymbolStyling.swift */,
+				1518A74D2C2419E5002224B1 /* SymbolPicker.swift */,
+				1518A74F2C2419FD002224B1 /* TaskRow.swift */,
+				1518A7412C241896002224B1 /* ColorOptions.swift */,
+				1518A73B2C24175C002224B1 /* EventTask.swift */,
+				1518A73D2C24177E002224B1 /* EventData.swift */,
+				1518A73F2C2417D3002224B1 /* EventList.swift */,
+				1518A72F2C241696002224B1 /* Assets.xcassets */,
+				1518A7312C241696002224B1 /* Preview Content */,
+			);
+			path = "Date Planner";
+			sourceTree = "<group>";
+		};
+		1518A7312C241696002224B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1518A7322C241696002224B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1518A7272C241694002224B1 /* Date Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1518A7362C241696002224B1 /* Build configuration list for PBXNativeTarget "Date Planner" */;
+			buildPhases = (
+				1518A7242C241694002224B1 /* Sources */,
+				1518A7252C241694002224B1 /* Frameworks */,
+				1518A7262C241694002224B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Date Planner";
+			productName = "Date Planner";
+			productReference = 1518A7282C241694002224B1 /* Date Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1518A7202C241694002224B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1518A7272C241694002224B1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 1518A7232C241694002224B1 /* Build configuration list for PBXProject "Date Planner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1518A71F2C241694002224B1;
+			productRefGroup = 1518A7292C241694002224B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1518A7272C241694002224B1 /* Date Planner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1518A7262C241694002224B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1518A7332C241696002224B1 /* Preview Assets.xcassets in Resources */,
+				1518A7302C241696002224B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1518A7242C241694002224B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1518A7402C2417D3002224B1 /* EventList.swift in Sources */,
+				1518A7442C2418CB002224B1 /* EventDetail.swift in Sources */,
+				1518A7462C241932002224B1 /* EventEditor.swift in Sources */,
+				1518A73A2C241725002224B1 /* Event.swift in Sources */,
+				1518A7502C2419FD002224B1 /* TaskRow.swift in Sources */,
+				1518A74C2C2419D2002224B1 /* SFSymbolStyling.swift in Sources */,
+				1518A74A2C2419A5002224B1 /* EventSymbols.swift in Sources */,
+				1518A73E2C24177E002224B1 /* EventData.swift in Sources */,
+				1518A72C2C241694002224B1 /* Date_PlannerApp.swift in Sources */,
+				1518A7482C241985002224B1 /* EventRow.swift in Sources */,
+				1518A73C2C24175C002224B1 /* EventTask.swift in Sources */,
+				1518A7422C241896002224B1 /* ColorOptions.swift in Sources */,
+				1518A74E2C2419E5002224B1 /* SymbolPicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1518A7342C241696002224B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1518A7352C241696002224B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1518A7372C241696002224B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Date Planner/Preview Content\"";
+				DEVELOPMENT_TEAM = 322PTHJ258;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.dongharyu.Date-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1518A7382C241696002224B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Date Planner/Preview Content\"";
+				DEVELOPMENT_TEAM = 322PTHJ258;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.dongharyu.Date-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1518A7232C241694002224B1 /* Build configuration list for PBXProject "Date Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1518A7342C241696002224B1 /* Debug */,
+				1518A7352C241696002224B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1518A7362C241696002224B1 /* Build configuration list for PBXNativeTarget "Date Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1518A7372C241696002224B1 /* Debug */,
+				1518A7382C241696002224B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1518A7202C241694002224B1 /* Project object */;
+}
