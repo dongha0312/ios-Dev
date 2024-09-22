@@ -57,8 +57,7 @@ struct MainView: View {
                 }
                     
                 }.frame(height: 200)
-                FooterVIew()
-                    .padding(.top)
+                    
             }
             .navigationTitle("Diary")
             .toolbar {
